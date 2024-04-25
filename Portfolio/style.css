@@ -1,0 +1,293 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* navbar */
+.navbar a{
+    color:white;
+}
+.navbar .navbar-nav{
+    margin-left: 300px;
+    
+}
+.navbar .navbar-nav li{
+    margin-left: 50px;
+    padding: 0 5px 0 5px;
+}
+.navbar .navbar-nav li:hover{
+    background-color: ghostwhite;
+    border: 3px solid green;
+    border-radius: 0px 30px 0px 30px;
+    box-shadow: 2px 2px 6px rgba(2, 2, 2, 0.586);
+}
+.logo-text .navbar-brand{
+    
+    font-size: 30px;
+    border-bottom: 2px solid white;
+    border-bottom: 2px solid green;
+
+}
+.logo-text .navbar-brand:hover{
+    color: white;
+}
+
+/* banner start */
+.banner{
+    height:600px;
+    background-image: url(Images/banner-img-1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.myText{
+    /* border:1px solid white; */
+    margin-top: 200px;
+    
+}
+.myText h1{
+    color: white;
+    margin-left: 50px;
+    font-size: 66px;
+}
+.myText p{
+    color:rgb(181, 181, 181);
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.myText span{
+    border-bottom: 4px solid green;
+    color: white;
+    
+}
+.myText ul li a{
+    color: white;
+
+}
+.myText ul li {
+    display: inline;
+    font-size: 25px;
+    padding: 5px;
+    margin-left: 15px;
+}
+.myText ul li:hover{
+    box-shadow: 2px 2px 3px grey;
+   border-top: 2px solid green;
+   border-left: 2px solid green;
+   
+}
+
+
+.banner-about{
+    background-image: url(Images/banner-img-1.jpg);
+    background-size: cover;
+    height:400px;
+}
+.myText-about h1{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+
+.about{
+    height:400px;
+    /* background-color: #e9e8e6; */
+}
+
+.about h1 , .skills h1{
+    color: brown;
+}
+.about p , .skills p{
+    line-height: 35px;
+    font-size: 20px;
+    color: rgb(73, 73, 73);
+}
+.about span , .skills span{
+    border-bottom: 2px solid green;
+    color: black;
+    font-weight: bold;
+    
+   
+}
+.about img{
+    border-radius:50%;
+}
+
+
+
+.skill{
+    /* height:300px; */
+    border:10px solid black;
+    text-align: center;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+.skill:hover{
+    background-color:aliceblue
+}
+.skill img{
+    height:100px;
+    width:100px;
+}
+.skill img:hover{
+    transform: rotate(30deg);
+    
+}
+
+/* #skill-1{
+    background-image: url(Images/html-img.webp);
+    background-size: cover;
+}
+#skill-2{
+    background-image: url(Images/css-img.webp);
+    background-size: cover;
+}
+#skill-3{
+    background-image: url(Images/bootstrap-img.webp);
+    background-size: cover;
+}
+#skill-4{
+    background-image: url(Images/javascript-img.webp);
+    background-size: cover;
+}
+#skill-5{
+    background-image: url(Images/nodejs-img.webp);
+    background-size: cover;
+}
+#skill-6{
+    background-image: url(Images/mongodb-img.webp);
+    background-size: cover;
+}
+#skill-7{
+    background-image: url(Images/mysql-img.webp);
+    background-size: cover;
+}
+#skill-8{
+    background-image: url(Images/expressjs-img.png);
+    background-size: cover;
+} */
+
+
+
+
+.box{
+    /* height:200px; */
+    /* border:1px solid black; */
+}
+.box .html-box{
+    margin-top: 60px;
+    
+}
+
+
+.box-2 .html-box{
+    margin-top: 120px;
+    /* border: 1px solid blue; */
+}
+.html-box{
+    height:180px;
+    
+    /* border:1px solid red; */
+   border-radius: 50%;
+}
+.html-box img{
+    height:120px;
+    width:120px;
+}
+
+.html-box p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+.myproject .col{
+  
+  border:1px solid red;
+  margin: 20px;
+  border-radius: 10px;
+  border-style: double;
+  border-width: thick;
+  background-color:black;
+  color: red;
+  
+}
+
+
+
+.myproject .col:hover{
+    background-color: brown;
+    color: white;
+
+    
+}
+.myproject .col p:hover{
+    color: rgb(253, 3, 3);
+}
+.footer{
+    height:100px;
+    background:#e9e8e6;
+}
+  
+
+
+
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+.contact{
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(rgb(49, 99, 1),rgb(237, 133, 216));
+}
+
+.contact1{
+    margin: auto;
+}
+.contact-form {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+form {
+    margin-top: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background:rgb(49, 99, 1);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(237, 133, 216);
+}
+.map{
+    border-radius: 30px;
+}
+
